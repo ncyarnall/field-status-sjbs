@@ -6,9 +6,14 @@ module.exports = {
     "./public/index.html",
     "./src/components/Statuses.tsx",
     "./src/components/Footer.tsx",
+    "./src/components/Alert.tsx",
   ],
   theme: {
-    extend: {},
+    extend: {
+      margin: {
+        '600px': '600px',
+      }
+    },
     screens: {
       'phone': '413px',
       'mobile': '710px'
@@ -31,6 +36,7 @@ module.exports = {
     height: {
       '537p': '537px',
       '150p': '150px',
+      '70p': '80px',
     },
     width: {
       '1.1kp': '1100px',
